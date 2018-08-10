@@ -22,7 +22,7 @@ class CashRegister
     @total -= @discount
   end 
   
-  def item
+  def items
     @@all_items
   end 
   
